@@ -145,22 +145,11 @@ flowchart TD
 
 The 7-circle sacred thinking uses a **consistent T→S→D rotation pattern**:
 
-```mermaid
-flowchart LR
-    C1[Circle 1<br/>Vision<br/>T→S→D] --> C2[Circle 2<br/>Research<br/>T→S→D]
-    C2 --> C3[Circle 3<br/>Structure<br/>T→S→D]
-    C3 --> C4[Circle 4<br/>Design<br/>T→S→D]
-    C4 --> C5[Circle 5<br/>Build<br/>T→S→D]
-    C5 --> C6[Circle 6<br/>Validate<br/>T→S→D]
-    C6 --> C7[Circle 7<br/>Integrate<br/>T→S→D]
-    
-    style C1 fill:#1e3a5f
-    style C2 fill:#2d4a3e
-    style C3 fill:#3d4a2f
-    style C4 fill:#2d4a3e
-    style C5 fill:#1e4a3e
-    style C6 fill:#2d4a2e
-    style C7 fill:#3a3a4e
+### Tool Rotation (T→S→D)
+
+**Every Circle**: Sequential (T) → Tractatus (S) → Debug (D)
+
+This provides consistent cognitive enhancement across all 7 circles.
 ```
 
 **Tool Rotation (T→S→D):**
@@ -288,8 +277,8 @@ THINKING_REVIEW_STOP_SLOP=true
 | **tractatus-thinking** | Logical concept analysis | [gitlab.com/CochainComplex/tractatus-thinking](https://gitlab.com/CochainComplex/tractatus-thinking) |
 | **debug-thinking** | Graph-based problem tracking | [lobehub.com/mcp/tosssssy-mcp-server-debug-thinking](https://lobehub.com/mcp/tosssssy-mcp-server-debug-thinking) |
 | **@modelcontextprotocol/server-sequential-thinking** | Official MCP Sequential Thinking | [npmjs.com/package/@modelcontextprotocol/server-sequential-thinking](https://www.npmjs.com/package/@modelcontextprotocol/server-sequential-thinking) |
-| **context7** | Documentation retrieval | [github.com/sudonymister/context7](https://github.com/sudonymister/context7) |
-| **deepwiki** | GitHub repository research | [github.com/julep-ai/deepwiki](https://github.com/julep-ai/deepwiki) |
+| **context7** | Documentation retrieval | [github.com/upstash/context7](https://github.com/upstash/context7) |
+| **deepwiki** | GitHub repository research | [docs.devin.ai/work-with-devin/deepwiki](https://docs.devin.ai/work-with-devin/deepwiki) |
 
 ### Enhancement Skills
 
