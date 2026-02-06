@@ -52,17 +52,25 @@
                          THINKING VALIDATION
 ```
 
-**Tool Rotation (All 7 Circles)**: Sequential → Tractatus → Debug
+**Tool Rotation - Wave Pattern** (Alternates each circle):
 
-| Circle | Sequential | Tractatus | Debug |
-|--------|-----------|-----------|-------|
-| 1 Vision | Intent extraction | Logical structure | Problem definition |
-| 2 Research | Information gathering | Concept analysis | Research tracking |
-| 3 Structure | Task breakdown | Architecture | Structure issues |
-| 4 Design | Solution planning | Design logic | Design bugs |
-| 5 Build | Implementation | Build structure | Build problems |
-| 6 Validate | Verification | Validation logic | Test tracking |
-| 7 Integrate | Integration | System unity | Final issues |
+The starting tool SWITCHES between circles to maximize cognitive diversity:
+
+| Circle | Tool 1 (Start) | Tool 2 (Middle) | Tool 3 (End) |
+|--------|---------------|----------------|-------------|
+| 1 Vision | **Sequential** (T) → | Tractatus (S) → | Debug (D) |
+| 2 Research | **Tractatus** (S) → | Sequential (T) → | Debug (D) |
+| 3 Structure | **Sequential** (T) → | Tractatus (S) → | Debug (D) |
+| 4 Design | **Tractatus** (S) → | Sequential (T) → | Debug (D) |
+| 5 Build | **Sequential** (T) → | Tractatus (S) → | Debug (D) |
+| 6 Validate | **Tractatus** (S) → | Sequential (T) → | Debug (D) |
+| 7 Integrate | **Sequential** (T) → | Tractatus (S) → | Debug (D) |
+
+**Why This Alternation Matters:**
+- **Odd circles (1,3,5,7)**: Start with step-by-step (T) → logical structure (S) → problem tracking (D)
+- **Even circles (2,4,6)**: Start with logical analysis (S) → step-by-step (T) → problem tracking (D)
+- **No two circles start the same way** - prevents cognitive patterns from becoming repetitive
+- **Each circle gets a different cognitive entry point** - maximizes creative problem-solving
 
 **Why This Works**: Each tool provides unique cognitive capabilities that complement each other, creating comprehensive thinking coverage.
 

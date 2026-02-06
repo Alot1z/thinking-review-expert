@@ -74,9 +74,25 @@ Load `references/7circle-checklist.md` and validate:
 - **Circle 6 (Validate)**: Quality gates defined, approach validated
 - **Circle 7 (Integrate)**: Components integrated, system unified
 
-**Tool Rotation (T→S→D):**
-- Circles 1,3,5,7: Sequential → Tractatus → Debug
-- Circles 2,4,6: Tractatus → Sequential → Debug
+**Tool Rotation (Wave Pattern - Alternating Start):**
+
+Each circle starts with a DIFFERENT tool to maximize cognitive diversity:
+
+```
+Circle 1 (Vision):   Sequential (T) → Tractatus (S) → Debug (D)
+Circle 2 (Research):  Tractatus (S) → Sequential (T) → Debug (D)
+Circle 3 (Structure): Sequential (T) → Tractatus (S) → Debug (D)
+Circle 4 (Design):    Tractatus (S) → Sequential (T) → Debug (D)
+Circle 5 (Build):     Sequential (T) → Tractatus (S) → Debug (D)
+Circle 6 (Validate):  Tractatus (S) → Sequential (T) → Debug (D)
+Circle 7 (Integrate): Sequential (T) → Tractatus (S) → Debug (D)
+```
+
+**Why This Matters:**
+- Odd circles (1,3,5,7): Step-by-step entry → logical structure → problems
+- Even circles (2,4,6): Logical analysis entry → step-by-step → problems
+- No two circles start the same way - prevents cognitive repetition
+- Each circle gets a unique cognitive entry point for maximum diversity
 
 ### 4) Auto-Generate Mermaid Diagram
 
