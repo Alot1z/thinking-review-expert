@@ -98,13 +98,7 @@ Planned hooks for automatic triggering:
 - `post-merge-hook`: Review thinking patterns after PR merges
 - `ci-integration`: Quality gates in CI/CD pipelines
 
-### Agent System Enhancement
-- **Multi-agent orchestration**: Parallel validation agents for large projects
-- **Swarm validation**: 100+ agents validating different aspects simultaneously
-- **Auto-fix agents**: Agents that apply fixes automatically when issues found
-- **Learning agents**: Agents that learn from patterns and improve over time
-
-### Token Saving Planning
+### Token Optimization
 - **Smart compression**: Identify redundant thinking patterns
 - **Lazy loading enhancements**: Load only what's needed, when needed
 - **Context optimization**: Minimize token usage while maintaining quality
