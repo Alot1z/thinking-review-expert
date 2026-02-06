@@ -86,16 +86,18 @@ flowchart TD
 
 ---
 
-## 🔄 7-Circle Validation
+## 🔄 7-Circle Validation with Tool Rotation
+
+The 7-circle sacred thinking uses a **consistent T→S→D rotation pattern**:
 
 ```mermaid
 flowchart LR
-    C1[Circle 1<br/>Vision] --> C2[Circle 2<br/>Research<br/>T→S→D]
-    C2 --> C3[Circle 3<br/>Structure]
+    C1[Circle 1<br/>Vision<br/>T→S→D] --> C2[Circle 2<br/>Research<br/>T→S→D]
+    C2 --> C3[Circle 3<br/>Structure<br/>T→S→D]
     C3 --> C4[Circle 4<br/>Design<br/>T→S→D]
-    C4 --> C5[Circle 5<br/>Build]
+    C4 --> C5[Circle 5<br/>Build<br/>T→S→D]
     C5 --> C6[Circle 6<br/>Validate<br/>T→S→D]
-    C6 --> C7[Circle 7<br/>Integrate]
+    C6 --> C7[Circle 7<br/>Integrate<br/>T→S→D]
     
     style C1 fill:#E1F5FF
     style C2 fill:#FFF3E0
@@ -106,9 +108,9 @@ flowchart LR
     style C7 fill:#F8EFFF
 ```
 
-**Tool Rotation Pattern:**
-- **Circles 1,3,5,7**: Sequential → Tractatus → Debug
-- **Circles 2,4,6**: Tractatus → Sequential → Debug
+**Tool Rotation (T→S→D):**
+- **Every Circle**: Sequential (T) → Tractatus (S) → Debug (D)
+- This provides consistent cognitive enhancement across all 7 circles
 
 ---
 
