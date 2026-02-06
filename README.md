@@ -251,6 +251,24 @@ graph TB
 
 ## Configuration
 
+### Environment Variables (.env)
+
+**Optional**: Create a `.env` file for external MCP server API keys:
+
+```bash
+# Copy the example file
+cp .env.example .env
+
+# Edit with your API keys
+CONTEXT7_API_KEY=your_key_here
+DEEPWIKI_API_KEY=your_key_here
+GITHUB_TOKEN=your_token_here
+```
+
+**Note**: The skill works **fully without these keys** using embedded implementations. These are only needed if you want to use external MCP servers for additional functionality.
+
+### Environment Variables (Legacy)
+
 ```bash
 # Enable auto-diagram generation (default: true)
 THINKING_REVIEW_AUTO_DIAGRAMS=true
