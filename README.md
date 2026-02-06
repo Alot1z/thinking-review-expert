@@ -70,15 +70,25 @@
 
 ## Installation
 
+### NPM (Recommended - Primary Installation Method)
+
 ```bash
-# Claude Code / Claude Skills
+# Global installation (recommended)
+npm install -g thinking-review-expert
+
+# Or as dev dependency
+npm install --save-dev thinking-review-expert
+```
+
+### Claude Code / Claude Skills (Alternative)
+
+```bash
+# Clone directly to skills directory
+git clone https://github.com/Alot1z/thinking-review-expert.git ~/.claude/skills/thinking-review-expert
+
+# Or clone and copy
 git clone https://github.com/Alot1z/thinking-review-expert.git
 cp -r thinking-review-expert ~/.claude/skills/
-
-# NPM
-npm install -g thinking-review-expert
-# or
-npm install --save-dev thinking-review-expert
 ```
 
 ---
