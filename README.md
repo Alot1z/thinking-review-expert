@@ -5,9 +5,9 @@
 
 <div align="center">
 
-# 🧠 Thinking Review Expert
+<h1>Thinking Review Expert</h1>
 
-**Automatic validation for 7-circle sacred thinking flows**
+<p><strong>Automatic validation for 7-circle sacred thinking flows</strong></p>
 
 </div>
 
@@ -16,6 +16,7 @@
 <div align="center">
 
 [![Documentation](https://img.shields.io/badge/docs-wiki-blue.svg)](https://github.com/Alot1z/thinking-review-expert/wiki)
+[![GitHub Pages](https://img.shields.io/badge/github-pages-blue.svg)](https://Alot1z.github.io/thinking-review-expert/)
 [![NPM Package](https://img.shields.io/badge/npm-install-green.svg)](https://www.npmjs.com/package/thinking-review-expert)
 [![GitHub](https://img.shields.io/badge/github-repo-purple.svg)](https://github.com/Alot1z/thinking-review-expert)
 
@@ -23,7 +24,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
@@ -36,7 +37,7 @@
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Claude Code / Claude Skills
@@ -51,7 +52,7 @@ npm install --save-dev thinking-review-expert
 
 ---
 
-## 🎯 What It Does
+## What It Does
 
 This skill automatically activates when you use thinking tools and provides comprehensive validation:
 
@@ -72,21 +73,21 @@ flowchart TD
     I --> J[Score: 0-100]
     
     J --> K{Score ≥ 80?}
-    K -->|Yes| L[✅ PASS]
-    K -->|No| M[❌ Recommendations provided]
+    K -->|Yes| L[PASS]
+    K -->|No| M[Recommendations provided]
     
-    style A fill:#E3F2FD
-    style F fill:#BBDEFB
-    style G fill:#90CAF9
-    style H fill:#64B5F6
-    style I fill:#42A5F5
-    style L fill:#66BB6A
-    style M fill:#EF5350
+    style A fill:#1e3a5f
+    style F fill:#2d4a6f
+    style G fill:#3d5a7f
+    style H fill:#4d6a8f
+    style I fill:#5d7a9f
+    style L fill:#4a7c59
+    style M fill:#8b4a4a
 ```
 
 ---
 
-## 🔄 7-Circle Validation with Tool Rotation
+## 7-Circle Validation with Tool Rotation
 
 The 7-circle sacred thinking uses a **consistent T→S→D rotation pattern**:
 
@@ -99,13 +100,13 @@ flowchart LR
     C5 --> C6[Circle 6<br/>Validate<br/>T→S→D]
     C6 --> C7[Circle 7<br/>Integrate<br/>T→S→D]
     
-    style C1 fill:#E1F5FF
-    style C2 fill:#FFF3E0
-    style C3 fill:#F3E5F5
-    style C4 fill:#E8F5E8
-    style C5 fill:#E0F2F1
-    style C6 fill:#F1F8E9
-    style C7 fill:#F8EFFF
+    style C1 fill:#1e3a5f
+    style C2 fill:#2d4a3e
+    style C3 fill:#3d4a2f
+    style C4 fill:#2d4a3e
+    style C5 fill:#1e4a3e
+    style C6 fill:#2d4a2e
+    style C7 fill:#3a3a4e
 ```
 
 **Tool Rotation (T→S→D):**
@@ -114,7 +115,7 @@ flowchart LR
 
 ---
 
-## 📖 Quick Start
+## Quick Start
 
 ### Sequential Thinking
 
@@ -149,7 +150,7 @@ debug_thinking(
 
 ---
 
-## ✍️ Stop-Slop Writing
+## Stop-Slop Writing
 
 **Before (AI Slop):**
 > "I was wondering if perhaps you might want to consider potentially exploring the possibility of enhancing the depth of your analysis..."
@@ -158,14 +159,14 @@ debug_thinking(
 > "Add 2 more thought cycles. Include alternative perspectives."
 
 **Principles:**
-- ✅ Direct language (no hedging)
-- ✅ Active voice (no passive)
-- ✅ Specific terms (no vague modifiers)
-- ✅ No buzzwords (no corporate speak)
+- Direct language (no hedging)
+- Active voice (no passive)
+- Specific terms (no vague modifiers)
+- No buzzwords (no corporate speak)
 
 ---
 
-## 📊 Embedded Tools
+## Embedded Tools
 
 ```mermaid
 graph TB
@@ -185,17 +186,17 @@ graph TB
     Debug --> D2[6 Node Types]
     Debug --> D3[8 Edge Types]
     
-    style Root fill:#4A90E2,color:#fff
-    style Sequential fill:#50C878,color:#fff
-    style Tractatus fill:#FF6B6B,color:#fff
-    style Debug fill:#FFD93D,color:#000
+    style Root fill:#2d4a6f
+    style Sequential fill:#3d6b4e
+    style Tractatus fill:#6b4a4a
+    style Debug fill:#6b5f3a
 ```
 
 **Total:** 944 lines of embedded implementations
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ```bash
 # Enable auto-diagram generation (default: true)
@@ -210,7 +211,7 @@ THINKING_REVIEW_STOP_SLOP=true
 
 ---
 
-## 📈 Performance
+## Performance
 
 | Operation | Tokens | Time | Quality |
 |-----------|--------|------|--------|
@@ -223,7 +224,7 @@ THINKING_REVIEW_STOP_SLOP=true
 
 ---
 
-## 🔗 Related Skills & Resources
+## Related Skills & Resources
 
 ### Core Thinking MCP Servers
 
@@ -255,18 +256,20 @@ THINKING_REVIEW_STOP_SLOP=true
 
 ### Documentation
 
-- **7-BMAD Methodology**: [github.com/Alot1z/7-circle-bmad](https://github.com/Alot1z/7-circle-bmad)
-- **Claude Code Skills**: [docs.anthropic.com/claude-code/skills](https://docs.anthropic.com/claude-code/skills)
+- **GitHub Pages:** [Alot1z.github.io/thinking-review-expert](https://Alot1z.github.io/thinking-review-expert/)
+- **Wiki:** [github.com/Alot1z/thinking-review-expert/wiki](https://github.com/Alot1z/thinking-review-expert/wiki)
+- **7-BMAD Methodology:** [github.com/Alot1z/7-circle-bmad](https://github.com/Alot1z/7-circle-bmad)
+- **Claude Code Skills:** [docs.anthropic.com/claude-code/skills](https://docs.anthropic.com/claude-code/skills)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md).
 
 ---
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details
 
@@ -280,6 +283,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 [GitHub](https://github.com/Alot1z/thinking-review-expert) • 
 [NPM](https://www.npmjs.com/package/thinking-review-expert) • 
+[GitHub Pages](https://Alot1z.github.io/thinking-review-expert/) • 
 [Wiki](https://github.com/Alot1z/thinking-review-expert/wiki)
 
 </div>
