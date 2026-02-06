@@ -29,11 +29,42 @@
 | Feature | Description |
 |---------|-------------|
 | **7-Circle Validation** | Complete validation across all sacred thinking circles |
-| **Embedded Tools** | Sequential (203 lines), Tractatus (353 lines), Debug (388 lines) |
+| **3-Tool Integration** | Sequential + Tractatus + Debug working in harmony |
 | **Quality Scoring** | 0-100 score with specific recommendations |
 | **Stop-Slop** | Auto-applies direct, active language principles |
 | **Token Savings** | 85-90% savings via lazy loading |
 | **Auto-Diagrams** | Beautiful mermaid diagrams generated automatically |
+
+## How the 3 Thinking Tools Work Together
+
+```
+┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐
+│  Sequential     │──T→  │  Tractatus      │──S→  │  Debug          │
+│  Thinking       │      │  Thinking       │      │  Thinking       │
+│                 │      │                 │      │                 │
+│  Step-by-step   │      │  Logical        │      │  Problem        │
+│  progression    │      │  structure      │      │  tracking       │
+└─────────────────┘      └─────────────────┘      └─────────────────┘
+         │                         │                        │
+         └─────────────────────────┴────────────────────────┘
+                                   │
+                          7-CIRCLE SACRED
+                         THINKING VALIDATION
+```
+
+**Tool Rotation (All 7 Circles)**: Sequential → Tractatus → Debug
+
+| Circle | Sequential | Tractatus | Debug |
+|--------|-----------|-----------|-------|
+| 1 Vision | Intent extraction | Logical structure | Problem definition |
+| 2 Research | Information gathering | Concept analysis | Research tracking |
+| 3 Structure | Task breakdown | Architecture | Structure issues |
+| 4 Design | Solution planning | Design logic | Design bugs |
+| 5 Build | Implementation | Build structure | Build problems |
+| 6 Validate | Verification | Validation logic | Test tracking |
+| 7 Integrate | Integration | System unity | Final issues |
+
+**Why This Works**: Each tool provides unique cognitive capabilities that complement each other, creating comprehensive thinking coverage.
 
 ---
 
@@ -49,6 +80,35 @@ npm install -g thinking-review-expert
 # or
 npm install --save-dev thinking-review-expert
 ```
+
+---
+
+## Future Plans
+
+### Auto-Integration with Code-Review-Expert
+- **Automatic code review**: Every validated thinking session triggers comprehensive code review
+- **SOLID principles validation**: Check code quality against best practices
+- **Security scanning**: Auto-detect vulnerabilities in generated code
+- **Performance analysis**: Identify optimization opportunities
+
+### Hooks Integration
+Planned hooks for automatic triggering:
+- `post-thinking-hook`: Auto-validate after any thinking tool completes
+- `pre-commit-hook`: Validate thinking quality before git commits
+- `post-merge-hook`: Review thinking patterns after PR merges
+- `ci-integration`: Quality gates in CI/CD pipelines
+
+### Agent System Enhancement
+- **Multi-agent orchestration**: Parallel validation agents for large projects
+- **Swarm validation**: 100+ agents validating different aspects simultaneously
+- **Auto-fix agents**: Agents that apply fixes automatically when issues found
+- **Learning agents**: Agents that learn from patterns and improve over time
+
+### Token Saving Planning
+- **Smart compression**: Identify redundant thinking patterns
+- **Lazy loading enhancements**: Load only what's needed, when needed
+- **Context optimization**: Minimize token usage while maintaining quality
+- **Caching strategies**: Cache validation results for reuse
 
 ---
 
