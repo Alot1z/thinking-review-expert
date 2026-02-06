@@ -288,11 +288,12 @@ THINKING_REVIEW_STOP_SLOP=true
 
 ### Core Thinking MCP Servers
 
-| Server | Description | GitHub |
+| Server | Description | Source |
 |--------|-------------|--------|
-| **sequential-thinking** | Step-by-step reasoning | [github.com/anthropics/sequential-thinking-mcp](https://github.com/anthropics/sequential-thinking-mcp) |
-| **tractatus-thinking** | Logical concept analysis | [github.com/brundonsmith/tractatus-thinking-mcp](https://github.com/brundonsmith/tractatus-thinking-mcp) |
-| **debug-thinking** | Graph-based problem tracking | [github.com/anthropics/debug-thinking-mcp](https://github.com/anthropics/debug-thinking-mcp) |
+| **sequential-thinking** | Step-by-step reasoning | [gitlab.com/CochainComplex/tractatus-thinking](https://gitlab.com/CochainComplex/tractatus-thinking) |
+| **tractatus-thinking** | Logical concept analysis | [gitlab.com/CochainComplex/tractatus-thinking](https://gitlab.com/CochainComplex/tractatus-thinking) |
+| **debug-thinking** | Graph-based problem tracking | [lobehub.com/mcp/tosssssy-mcp-server-debug-thinking](https://lobehub.com/mcp/tosssssy-mcp-server-debug-thinking) |
+| **@modelcontextprotocol/server-sequential-thinking** | Official MCP Sequential Thinking | [npmjs.com/package/@modelcontextprotocol/server-sequential-thinking](https://www.npmjs.com/package/@modelcontextprotocol/server-sequential-thinking) |
 | **context7** | Documentation retrieval | [github.com/sudonymister/context7](https://github.com/sudonymister/context7) |
 | **deepwiki** | GitHub repository research | [github.com/julep-ai/deepwiki](https://github.com/julep-ai/deepwiki) |
 
@@ -300,10 +301,10 @@ THINKING_REVIEW_STOP_SLOP=true
 
 | Skill | Description | Link |
 |-------|-------------|------|
-| **code-review-expert** | Expert code review | [npm](https://www.npmjs.com/package/code-review-expert) |
+| **code-review-expert** | Expert code review | [github.com/sanyuan0704/code-review-expert](https://github.com/sanyuan0704/code-review-expert) |
 | **deslop** | Remove AI-generated slop | [npm](https://www.npmjs.com/package/deslop) |
-| **stop-slop** | Direct language principles | [Embedded](./references/stop-slop.md) |
-| **beautiful-mermaid** | 15 stunning themes | [Embedded](./references/beautiful-mermaid.md) |
+| **stop-slop** | Direct language principles | [github.com/hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) |
+| **beautiful-mermaid** | 15 stunning themes | [github.com/lukilabs/beautiful-mermaid](https://github.com/lukilabs/beautiful-mermaid) |
 
 ### 7-Circle Sacred Skills
 

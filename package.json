@@ -1,6 +1,6 @@
 {
   "name": "thinking-review-expert",
-  "version": "6.0.3",
+  "version": "6.0.4",
   "description": "Automatic validation for 7-circle sacred thinking flows with quality scoring and stop-slop principles",
   "main": "skill.md",
   "scripts": {
