@@ -1,7 +1,7 @@
 {
   "name": "thinking-review-expert",
-  "version": "6.0.0",
-  "description": "7-circle sacred thinking validation with embedded tools, auto-generated mermaid diagrams, and stop-slop principles",
+  "version": "6.0.1",
+  "description": "Automatic validation for 7-circle sacred thinking flows with quality scoring and stop-slop principles",
   "main": "skill.md",
   "scripts": {
     "test": "echo \"No tests yet\"",
@@ -17,10 +17,8 @@
     "sequential-thinking",
     "tractatus-thinking",
     "debug-thinking",
-    "mermaid",
-    "diagrams",
     "code-review",
-    "ai-slop"
+    "stop-slop"
   ],
   "author": "Alot1z",
   "license": "MIT",
@@ -35,13 +33,13 @@
   "claude": {
     "skillName": "thinking-review-expert",
     "skillCategory": "validation",
-    "skillVersion": "6.0.0",
+    "skillVersion": "6.0.1",
     "capabilities": [
       "7-circle validation",
       "sequential thinking review",
       "tractatus thinking review",
       "debug thinking review",
-      "auto-mermaid diagrams",
+      "quality scoring",
       "stop-slop writing"
     ],
     "mcpServers": [
